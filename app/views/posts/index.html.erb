@@ -1,0 +1,30 @@
+<h1>Listing posts</h1>
+<table class="table table-striped table-condensed">
+    <thead>
+        <tr>
+            <th>
+                Title
+            </th>
+            <th>
+                Content
+            </th>
+            <th>
+                To View
+            </th>
+            <th>
+                Edit Post
+            </th>
+            <th>
+                Delete
+            </th>
+        </tr>
+    </thead>
+    <tbody id="posts">
+        <%= render @posts %>
+    </tbody>
+</table>
+<div id="paginator">
+    <%= paginate @posts, :remote => true %>
+</div>
+<br/>
+<%= link_to 'New Post', new_post_path %>
