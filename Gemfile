@@ -5,7 +5,7 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+#gem 'sqlite3'
 gem 'pg'
 gem 'bootstrap-sass'
 gem 'kaminari'
@@ -22,7 +22,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
+gem 'bootstrap-wysiwyg-rails'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -31,9 +31,11 @@ gem 'jquery-rails'
 
 # Use unicorn as the app server
 # gem 'unicorn'
-
+gem 'rmagick', '2.13.2'
+gem 'exifr'
+gem 'aws-sdk'
+gem 'aws-s3'
 # Deploy with Capistrano
 # gem 'capistrano'
-
 # To use debugger
-# gem 'debugger'
+gem 'debugger'
