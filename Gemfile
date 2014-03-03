@@ -38,4 +38,4 @@ gem 'aws-s3'
 # Deploy with Capistrano
 # gem 'capistrano'
 # To use debugger
-gem 'debugger'
+#gem 'debugger'
